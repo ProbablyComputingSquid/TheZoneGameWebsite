@@ -7,6 +7,14 @@ body{
 .banner {
   background-color: rgb(255, 217, 0);
 }
+.header {
+  position: fixed;
+  background-color: black;
+  width:100%;
+  height:5rem;
+  margin:0;
+  top: 0px;
+}
 .dropdown {
   position: relative;
   background-color:red;
@@ -56,8 +64,12 @@ button:hover {
 
 .sortofbig {
   font-size: 200%;
-  font-family: 'Black Ops One';
+  font-family: 'Audiowide';
 }
 .List-Header {
   text-align: center;
+}
+hr {
+  width: 50%;
+  border-color:black;
 }

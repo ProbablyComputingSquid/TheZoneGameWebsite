@@ -10,3 +10,8 @@ function darkMode() {
     document.getElementById("link").setAttribute("href", "style.css");
   }
 }
+
+function copy() {
+  navigator.clipboard.writeText("https://thezonegame.computingsquid.repl.co/index.html");
+  alert("Copied URL, Now share with your friends!");
+}
